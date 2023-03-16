@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CARRITO DE COMPRAS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Rubik:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel= "stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" type="module" defer></script>
+</head>
+
+<body>  
+
+  <div class="loader ">
+    <div class="loader__container">
+      <span></span>
+    </div>
+  </div>
+
+<header class="header">
+  <nav class="nav container">
+    <a href="/" class="nav__logo">
+      <svg xmlns="htt://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="logo--icon">
+        <path fill="currentColor"
+        d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+      </path>
+    </svg>
+   </a>
+<div class="nav__menu">
+  <!-- <button type="button" class="nav__btn btn--close"> 
+    <i class='bx bx-x'></i>
+  </button> -->
+
+<ul class="nav__list">
+  <li class="nav__items">
+    <a href="#" class="nav__link">Inicio</a>
+  </li>
+
+  <li class="nav__items">
+    <a href="#" class="nav__link">Productos</a>
+  </li>
+
+  <li class="nav__items">
+    <a href="https://portafolio-ivan-pinza.netlify.app/" class="nav__link">Sobre mi</a>
+  </li>
+
+</ul>
+</div>
+
+<div class="nav__buttons">
+  <button type="button" class="nav__btn btn--cart"> 
+    <i class='bx bxs-shopping-bags'>
+      <span class="notify">0</span>
+    </i>
+    
+  </button>
+  <button type="button" class="nav__btn btn--menu"> 
+    <i class='bx bx-menu' ></i>
+  </button>
+
+</div>
+
+ </nav>
+</header>
+
+<main class="main">
+  <section class="products sections">
+<h2 class="products__title section--title">Productos</h2>
+<div class="products__container container"></div>
+  </section>
+</main>
+
+<div class="cart">
+  <div class="cart__container">
+    <div class="cart__header">
+      <h3 class="cart__title">Carrito de Compras</h3>
+      <button class="cart__btn btn--close">
+        <i class="bx bx-x"></i>
+      </button>
+    </div>
+    <div class="cart__body">
+    </div>
+      </article>
+      <div class="cart__footer">
+        <div class="cart__count">
+          <span class="cart__count--text">Articulos:</span>
+          <span class="cart__count--item">0</span>
+        </div>
+        <div class="cart__total">
+          <span class="cart__count--text">Total $</span>
+          <span class="cart__count--item1">$0</span>
+        </div>
+          <button class="cart__btn btn--buy">Comprar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<footer class="fotter section">
+  <div class="footer__container container">
+    <div class="footer__top">
+        <div class="footer__left">
+          <h3 class="footer__title">Sobre mi</h3>
+          <p class="footer__text">Mi nombre es Ivan Jojoa, soy Geografo profesional y estudiante para ser un desarrollador web full stack en ACADEMLO, realice este proyecto solo y espero que tenga todos los requisitos necesarios para aprobar y poder continuar aprendiendo mucho mas, en los iconos encuentras mis contactos y en la pestaña del menu "sobre mi" esta mi protafolio realizado con HTML y CSS ¡Muchas Gracias!</p>
+        </div>
+        <div class="footer__rigth">
+          <h3 class="footer__title">Redes Sociales</h3>
+          <ul class="footer__social">
+            <li class="footer__item">
+              <a href="https://github.com/pinzaivan" class="footer__link">
+                <i class='bx bxl-github'></i>
+              </a>
+              
+            </li>
+            <li class="footer__item">
+              <a href="https://www.instagram.com/pinzaivan/" class="footer__link">
+                <i class='bx bxl-instagram' ></i>
+              </a>
+              
+            </li>
+             <li class="footer__item">
+              <a href="https://www.linkedin.com/in/ivan-dario-jojoa-pinza-542557244/" class="footer__link">
+                <i class='bx bxl-linkedin' ></i>
+              </a>
+              
+            </li>
+          </ul>
+        </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__text">Todos los derechos reservados</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
